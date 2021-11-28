@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.com.provi.utra.model.Usuario;
 import br.com.provi.utra.model.UsuarioLogin;
-import br.com.provi.utra.serve.UsuarioService;
+import br.com.provi.utra.service.UsuarioService;
 
 
 
