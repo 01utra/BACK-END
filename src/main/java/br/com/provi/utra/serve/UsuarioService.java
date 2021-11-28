@@ -2,15 +2,13 @@ package br.com.provi.utra.serve;
 
 import java.nio.charset.Charset;
 import java.util.Optional;
-
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.stereotype.Service;
-
 import br.com.provi.utra.model.Usuario;
 import br.com.provi.utra.model.UsuarioLogin;
-
-
+import br.com.provi.utra.repository.UsuarioRepository;
 
 @Service
 public class UsuarioService {
