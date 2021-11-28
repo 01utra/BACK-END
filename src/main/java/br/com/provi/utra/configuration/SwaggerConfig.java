@@ -1,4 +1,4 @@
-package br.org.provi.utra.configuration;
+package br.com.provi.utra.configuration;
 
 import java.util.ArrayList;
 import java.util.List;
